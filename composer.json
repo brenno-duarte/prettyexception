@@ -1,0 +1,14 @@
+{
+    "name": "brenno-duarte/prettyexception",
+    "description": "PrettyException is a component that helps to manipulate the Whoops component.",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4|^8.0",
+        "filp/whoops": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrettyException\\": "src/"
+        }
+    }
+}
